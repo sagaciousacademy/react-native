@@ -14,7 +14,7 @@ Show Cases- http://facebook.github.io/react-native/showcase.html
 
 ## Módulo 1 - Introdução Geral - Aula 2 - Aplicativo Nativo x Aplicativo Híbrido
 
-As principais viabilidades dos aplicativos nativos é o fato de existir menos camada entre o aplicativo e o sistema operacional do smartphone, proporcionando performance, rendimento, menos consumo de memória e bateria, além de proporcionar desenvolvedor projetos com custo de desenvolvimento menos elevado, pois por intermédio da mesma codificação é possível gerar aplicativos para plataformas distintas (Android e IOS).
+As principais viabilidades dos aplicativos nativos é o fato de existir menos camada entre o aplicativo e o sistema operacional do smartphone, proporcionando performance, rendimento, menos consumo de memória e bateria, além de possibilitar desenvolver projetos com custo de desenvolvimento menos elevado, pois por intermédio da mesma codificação é possível gerar aplicativos para plataformas distintas (Android e IOS).
 
 Aplicativo híbrido possui mais camadas entre o aplicativo e o sistema operacional do smartphone, tornando o processo mais complexo com custo de desenvolvimento mais elevado, pois é necessário desenvolver codificação distinta para cada plataforma (Android e IOS).
 
