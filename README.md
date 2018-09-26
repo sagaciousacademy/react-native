@@ -94,3 +94,35 @@ Inserindo o ícone de carregamento do Android Studio na área de trabalho
     Terminal=false
     StartupNotify=true
     StartupWMClass=android-studio
+
+    ou
+
+    [Desktop Entry]
+    Version=1.0
+    Type=Application
+    Terminal=false
+    Icon[pt_BR]=gnome-panel-launcher
+    Name[pt_BR]=Android-Studio
+    Exec=/opt/andoid-studio/bin/studio.sh
+    Comment[pt_BR]=Android-Studio
+    Name=Android-Studio
+    Comment=Android-Studio
+    Icon=/opt/andoid-studio/bin/studio.png
+
+Apareceu esse erro na primeira abertura do Android Studio
+
+Gtk-Message: 01:02:35.549: Failed to load module "canberra-gtk-module"
+
+Configuring VM acceleration on Linux
+
+https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux
+
+Adicionar o path das variaveis de ambiente do Linux
+
+    export ANDROID_HOME=$HOME/Android/Sdk
+    export PATH=$PATH:$ANDROID_HOME/tools
+    export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+## Módulo 4 - Configurando Ambiente no Linux - Aula 4 - Aula Provisória: Aviso de versão
+
+    react-native init NomedoProjeto --vesion=0.55.4
