@@ -126,3 +126,15 @@ Adicionar o path das variaveis de ambiente do Linux
 ## Módulo 4 - Configurando Ambiente no Linux - Aula 4 - Aula Provisória: Aviso de versão
 
     react-native init NomedoProjeto --vesion=0.55.4
+
+## Módulo 4 - Configurando Ambiente no Linux - Aula 5 - Criando o Primeiro Projeto
+
+    react-native init PrimeiroProjeto
+
+## Módulo 4 - Configurando Ambiente no Linux - Aula 6 - Configurando o Simulador
+
+grant current access /dev/kvm
+
+https://quynguyen.wordpress.com/2018/05/17/fix-your-ubuntu-android-studio-kvm-permission-denied/
+
+http://nmp90.com/2018/04/dev-kvm-permission-denied-ubuntu-18-04/
