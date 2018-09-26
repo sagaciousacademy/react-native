@@ -34,6 +34,8 @@ São utilizados componentes nativos de cada sistema operacional, dessa forma, po
     :: Publicar o aplicativo na Apple Store (Iphone);
     :: Publicar o aplicativo na Play Store (Android), podendo ser instalado direto no celular.
 
-## Visualizar data no formato brasileiro no console
+## Módulo 4 - Configurando Ambiente no Linux - Aula 1 - Ferramentas Necessárias
 
-    dt.getDate()+"/"+(dt.getMonth()+1)+"/"+dt.getFullYear()
+    :: NodeJS para instalar o React Native e rodar a maioria dos comandos;
+    :: JDK8 para instalar o Android Studio;
+    :: React Native.
