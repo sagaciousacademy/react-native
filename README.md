@@ -18,9 +18,21 @@ As principais viabilidades dos aplicativos nativos é o fato de existir menos ca
 
 Aplicativo híbrido possui mais camadas entre o aplicativo e o sistema operacional do smartphone, tornando o processo mais complexo com custo de desenvolvimento mais elevado, pois é necessário desenvolver codificação distinta para cada plataforma (Android e IOS).
 
-## Módulo 1 - Introdução Geral - Aula 2 - App Android vs App iOS
+## Módulo 1 - Introdução Geral - Aula 3 - App Android vs App iOS
 
 São utilizados componentes nativos de cada sistema operacional, dessa forma, pode haver diferenças na interface gráfica esteticamente.
+
+## Módulo 1 - Introdução Geral - Aula 4 - Como funciona desenvolvimento mobile
+
+:: Possuir as ferramentas necessárias;
+:: Programar;
+:: Testar o aplicativo das seguintes formas:
+-- Emulador consumindo mais memória - Android Studio
+-- No próprio celular via USB
+-- Expo - Intepreta o aplicativo direto no celular
+:: Exportar o aplicativo;
+:: Publicar o aplicativo na Apple Store (Iphone);
+:: Publicar o aplicativo na Play Store (Android), podendo ser instalado direto no celular.
 
 ## Visualizar data no formato brasileiro no console
 
