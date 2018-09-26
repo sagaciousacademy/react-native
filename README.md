@@ -34,8 +34,38 @@ São utilizados componentes nativos de cada sistema operacional, dessa forma, po
     :: Publicar o aplicativo na Apple Store (Iphone);
     :: Publicar o aplicativo na Play Store (Android), podendo ser instalado direto no celular.
 
-## Módulo 4 - Configurando Ambiente no Linux - Aula 1 - Ferramentas Necessárias
+## Módulo 4 - Configurando Ambiente no Linux - Aula 2 - Instalando NodeJS, JDK8 e RN Cli
 
-    :: NodeJS para instalar o React Native e rodar a maioria dos comandos;
-    :: JDK8 para instalar o Android Studio;
-    :: React Native.
+https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+
+    curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+
+    sudo apt-get install -y nodejs
+
+Confirmando a instalação
+
+    npm
+
+Instalando o repositório do Java
+
+    sudo add-apt-repository ppa:webupd8team/java
+
+Atualizando
+
+    sudo apt update
+
+Instalando o JDK8
+
+    sudo apt install oracle-java8-installer
+
+Verificando a versão do Java
+
+    javac -version
+
+Setando automaticamente as variáveis de ambiente
+
+    sudo apt install oracle-java8-set-default
+
+Instalando o React Native
+
+    sudo npm install -g react-native-cli
