@@ -1,4 +1,4 @@
-# Módulo 1 - Introdução Geral
+# React Native
 
 ## Acesse o meu Curriculum
 
