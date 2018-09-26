@@ -66,6 +66,31 @@ Setando automaticamente as variáveis de ambiente
 
     sudo apt install oracle-java8-set-default
 
-Instalando o React Native
+Instalando o React Native Cli
 
     sudo npm install -g react-native-cli
+
+## Módulo 4 - Configurando Ambiente no Linux - Aula 3 - Instalando Android Studio
+
+Download do Android Studio
+
+https://developer.android.com/studio/
+
+Descompactando na pasta OPT
+
+    sudo unzip android-studio-ide-181.5014246-linux.zip -d opt
+
+Inserindo o ícone de carregamento do Android Studio na área de trabalho
+
+    nano ~/.local/share/applications/androidstudio.desktop
+
+    [Desktop Entry]
+    Version=1.0
+    Type=Application
+    Name=Android Studio
+    Exec="/opt/android-studio/bin/studio.sh" %f
+    Icon=/opt/android-studio/bin/studio.png
+    Categories=Development;IDE;
+    Terminal=false
+    StartupNotify=true
+    StartupWMClass=android-studio
