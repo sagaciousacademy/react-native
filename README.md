@@ -24,15 +24,15 @@ São utilizados componentes nativos de cada sistema operacional, dessa forma, po
 
 ## Módulo 1 - Introdução Geral - Aula 4 - Como funciona desenvolvimento mobile
 
-:: Possuir as ferramentas necessárias;
-:: Programar;
-:: Testar o aplicativo das seguintes formas:
--- Emulador consumindo mais memória - Android Studio
--- No próprio celular via USB
--- Expo - Intepreta o aplicativo direto no celular
-:: Exportar o aplicativo;
-:: Publicar o aplicativo na Apple Store (Iphone);
-:: Publicar o aplicativo na Play Store (Android), podendo ser instalado direto no celular.
+    :: Possuir as ferramentas necessárias;
+    :: Programar;
+    :: Testar o aplicativo das seguintes formas:
+    -- Emulador consumindo mais memória - Android Studio
+    -- No próprio celular via USB
+    -- Expo - Intepreta o aplicativo direto no celular
+    :: Exportar o aplicativo;
+    :: Publicar o aplicativo na Apple Store (Iphone);
+    :: Publicar o aplicativo na Play Store (Android), podendo ser instalado direto no celular.
 
 ## Visualizar data no formato brasileiro no console
 
