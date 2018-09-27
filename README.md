@@ -1,5 +1,3 @@
-# React Native
-
 ## Acesse o meu Curriculum
 
 http://bit.ly/curriculum-marcelo
@@ -7,6 +5,18 @@ http://bit.ly/curriculum-marcelo
 ## Acesse o meu Portfólio
 
 http://bit.ly/portfolio-marcelo
+
+## ReactJS
+
+https://reactjs.org/
+
+## React Native
+
+https://facebook.github.io/react-native/
+
+## Cases
+
+https://facebook.github.io/react-native/showcase.html
 
 ## Módulo 1 - Introdução Geral - Aula 1 - O que é React Native?
 
