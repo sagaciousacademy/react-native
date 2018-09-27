@@ -196,3 +196,37 @@ Estrutura Básica de um App (App.js)
 
             }
         }
+
+Declarando a variável, com estilização e funções anônimas
+
+        import React, { Component } from 'react';
+        import { View,Text, StyleSheet, Button } from 'react-native';
+
+        export default class PrimeiroProjeto extends Component {
+
+            somar(n1, n2) {
+                return n1 + n2;
+            }
+
+            render() {
+
+                let nome = "Marcelo";
+
+                return (
+                    <View>
+                    <Text style={styles.texto}>Olá {nome} - A soma de 2+2 é {this.somar(2, 2)}</Text>
+
+                    <Button title="Aperte" onPress={()=>{
+                        alert("me apertou")
+                    }} />
+                    </View>
+                );
+
+            }
+        }
+
+        const styles = StyleSheet.create({
+            texto: {
+                fontSize: 30
+            }
+        });
