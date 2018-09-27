@@ -197,6 +197,8 @@ Estrutura Básica de um App (App.js)
             }
         }
 
+## Módulo 8 - Detalhes sobre ES6
+
 Declarando a variável, com estilização e funções anônimas
 
         import React, { Component } from 'react';
