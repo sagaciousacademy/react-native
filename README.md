@@ -195,7 +195,4 @@ Estrutura Básica de um App (App.js)
             );
 
             }
-        }..
-
-
-        teste
+        }
