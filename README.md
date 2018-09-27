@@ -28,7 +28,7 @@ https://facebook.github.io/react-native/docs/getting-started.html
 
 https://facebook.github.io/react-native/showcase.html
 
-## NATIVE BASE - Framework com diversos componentes prontos
+## Native Base - Framework com diversos componentes prontos
 
 https://nativebase.io/
 
@@ -36,23 +36,23 @@ https://nativebase.io/
 
 https://facebook.github.io/jsx/
 
-## EXPO
+## Expo
 
 https://expo.io/
 
-## NODE.JS
+## Node.JS
 
 https://nodejs.org/en/
 
-## FLEXBOX
+## Flexbox
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-## REACT NAVIGATION
+## React Navigation
 
 https://reactnavigation.org/
 
-## JEST
+## Jest
 
 https://jestjs.io/
 
