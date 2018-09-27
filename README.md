@@ -6,6 +6,12 @@ http://bit.ly/curriculum-marcelo
 
 http://bit.ly/portfolio-marcelo
 
+## React Brasil
+
+https://medium.com/reactbrasil
+
+https://github.com/react-brasil
+
 ## ReactJS
 
 https://reactjs.org/
@@ -14,9 +20,41 @@ https://reactjs.org/
 
 https://facebook.github.io/react-native/
 
+## React Native - Documentação
+
+https://facebook.github.io/react-native/docs/getting-started.html
+
 ## Cases
 
 https://facebook.github.io/react-native/showcase.html
+
+## NATIVE BASE - Framework com diversos componentes prontos
+
+https://nativebase.io/
+
+## JSX
+
+https://facebook.github.io/jsx/
+
+## EXPO
+
+https://expo.io/
+
+## NODE.JS
+
+https://nodejs.org/en/
+
+## FLEXBOX
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+## REACT NAVIGATION
+
+https://reactnavigation.org/
+
+## JEST
+
+https://jestjs.io/
 
 ## Módulo 1 - Introdução Geral - Aula 1 - O que é React Native?
 
