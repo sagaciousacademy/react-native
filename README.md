@@ -138,3 +138,41 @@ grant current access /dev/kvm
 https://quynguyen.wordpress.com/2018/05/17/fix-your-ubuntu-android-studio-kvm-permission-denied/
 
 http://nmp90.com/2018/04/dev-kvm-permission-denied-ubuntu-18-04/
+
+Rodando o projeto no Emulador
+
+react-native run-android
+
+Para usar o Expo
+
+    sudo npm install -g create-react-native-app
+
+Criando o segundo projeto para ser simulado no Expo
+
+    create-react-native-app SegundoProjeto
+
+Incializado o Expo no terminal SSH para leitura do código via celular
+
+    expo start
+
+Inicializando o NPM para leitura do código de barras no Expo
+
+    sudo npm start
+
+Criando o terceiro projeto
+
+    react-native init TerceiroProjeto --vesion=0.55.4
+
+Comando para correção do erro 500
+
+    npm install --save-dev @babel/runtime
+
+Lista de dispositivos conectados no computador
+
+    adb devices
+
+    sudo apt install adb
+
+Para rodar o aplicativo no celular
+
+    react-native run-android
