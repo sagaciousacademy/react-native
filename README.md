@@ -141,7 +141,7 @@ http://nmp90.com/2018/04/dev-kvm-permission-denied-ubuntu-18-04/
 
 Rodando o projeto no Emulador
 
-react-native run-android
+    react-native run-android
 
 Para usar o Expo
 
