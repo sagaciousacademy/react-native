@@ -176,3 +176,26 @@ Lista de dispositivos conectados no computador
 Para rodar o aplicativo no celular
 
     react-native run-android
+
+## Módulo 8 - React Native Básico (JSX e ES6)
+
+Estrutura Básica de um App (App.js)
+
+        import React, { Component } from 'react';
+        import { View,Text } from 'react-native';
+
+        export default class PrimeiroProjeto extends Component {
+        render() {
+            return (
+                <View>
+                <Text>Olá Mundo</Text>
+                <Text>Olá Mundo</Text>
+                <Text>Olá Mundo</Text>
+                </View>
+            );
+
+            }
+        }..
+
+
+        teste
