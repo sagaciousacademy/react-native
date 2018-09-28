@@ -451,3 +451,27 @@ Formatação com estilos
         fontSize:20,
     }
     });
+
+
+## Módulo 8 - Tamanho Fixo e Dinâmico
+
+Estruturação de Layouts
+
+
+    import React, { Component } from 'react';
+    import { View, Text } from 'react-native';
+
+    export default class PrimeiroProjeto extends Component {
+
+    render() {
+
+        return (
+                <View style={{flex:1, backgroundColor:'green'}}>
+                <View style={{flex:1, backgroundColor:'blue'}}></View>
+                <View style={{flex:1, height:100, backgroundColor:'orange'}}></View>
+                <View style={{flex:2, height:100, backgroundColor:'yellow'}}></View>
+                <View style={{flex:3, height:200, backgroundColor:'black'}}></View>
+                </View>
+        );
+    }
+    }
