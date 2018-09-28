@@ -534,3 +534,17 @@ Prenchendo o input com o nome e apresentando a mensagem abaixo Olá, Nome
         );
     }
     }
+
+    const styles = StyleSheet.create ({
+    input: {
+        height:40,
+        borderWidth:1,
+        borderColor:'#000000',
+        margin:10,
+        padding:10
+    },
+    texto:{
+        fontSize:20,
+        textAlign: 'center'
+    }
+    });
