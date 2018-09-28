@@ -497,7 +497,7 @@ Alinhamento de itens com flexbox
 
 ## Módulo 8 - Recebendo dados do usuário
 
-    Prenchendo o input com o nome e apresentando a mensagem abaixo Olá, Nome
+Prenchendo o input com o nome e apresentando a mensagem abaixo Olá, Nome
 
     import React, { Component } from 'react';
     import { View, Text, TextInput, StyleSheet } from 'react-native';
@@ -533,18 +533,4 @@ Alinhamento de itens com flexbox
             </View>
         );
     }
-}
-
-    const styles = StyleSheet.create ({
-    input: {
-        height:40,
-        borderWidth:1,
-        borderColor:'#000000',
-        margin:10,
-        padding:10
-    },
-    texto:{
-        fontSize:20,
-        textAlign: 'center'
     }
-    });
