@@ -480,10 +480,10 @@ Estruturação de Layouts
 
 Alinhamento de itens com flexbox
 
-import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+    import React, { Component } from 'react';
+    import { View, Text } from 'react-native';
 
-export default class PrimeiroProjeto extends Component {
+    export default class PrimeiroProjeto extends Component {
 
     render() {
 
