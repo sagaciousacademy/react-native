@@ -44,6 +44,10 @@ https://expo.io/
 
 https://nodejs.org/en/
 
+## NPM
+
+https://www.npmjs.com/
+
 ## Flexbox
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -280,3 +284,32 @@ Declarando a variável, com estilização e funções anônimas
                 fontSize: 30
             }
         });
+
+## Módulo 8 - Entendendo PROPS
+
+Carregamento de imagens externas
+
+        import React, { Component } from 'react';
+        import { View, Text, Image } from 'react-native';
+
+        export default class PrimeiroProjeto extends Component {
+
+            render() {
+
+                let imagem = {uri:'https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Lollipop-512.png'};
+
+                return (
+                    <View>
+                    <Text>Olá Mundo</Text>
+                    <Text>Olá Mundo</Text>
+                    <Text>Olá Mundo</Text>
+                    <Text style={{fontSize:25, color:'red', margin:20}}>Olá Mundo</Text>
+
+                    <Image source={{uri:'https://cdn3.iconfinder.com/data/icons/softicons/PNG/Tips.png'}} style={{width:128, height:128}} />
+
+                    <Image source={imagem} style={{width:128, height:128}} />
+                    </View>
+                );
+
+            }
+        }
