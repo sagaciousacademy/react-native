@@ -64,6 +64,14 @@ https://jestjs.io/
 
 https://firebase.google.com/
 
+## Cursos Gratuitos do ecossistema da stack ReactJS, NodeJS e React Native
+
+https://rocketseat.com.br/starter
+
+## Cursos Pago de React Native
+
+http://lp.b7web.com.br/rn-pre-venda/
+
 ## Módulo 1 - Introdução Geral - Aula 1 - O que é React Native?
 
 Show Cases- http://facebook.github.io/react-native/showcase.html
