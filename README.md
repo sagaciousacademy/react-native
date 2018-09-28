@@ -475,3 +475,22 @@ Estruturação de Layouts
         );
     }
     }
+
+## Módulo 8 - Flexbox e alinhamentos
+
+Alinhamento de itens com flexbox
+
+import React, { Component } from 'react';
+import { View, Text } from 'react-native';
+
+export default class PrimeiroProjeto extends Component {
+
+    render() {
+
+        return (
+                <View style={{flex:1, flexDirection:'row', justifyContent:'center', alignItems:'center'}}>
+                <View style={{width:200, height:100, backgroundColor:'blue'}}></View>
+                </View>
+        );
+    }
+    }
