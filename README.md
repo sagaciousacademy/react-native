@@ -313,3 +313,46 @@ Carregamento de imagens externas
 
             }
         }
+
+## Criando Próprios Componentes
+
+Carregamento de imagens de forma dinâmica
+
+        import React, { Component } from 'react';
+        import { View, Text, Image } from 'react-native';
+
+        class Imagem extends Component {
+
+            render() {
+
+                let imagem = {
+                    uri:'https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/'+this.props.nome+'.png'
+                };
+
+                return (
+
+                        <Image source={imagem} style={{width:parseInt(this.props.largura), height:parseInt(this.props.altura)}} />
+
+                );
+            }
+
+        }
+
+        export default class PrimeiroProjeto extends Component {
+
+            render() {
+
+                return (
+                    <View>
+                    <Text>Olá Mundo</Text>
+                    <Text>Olá Mundo</Text>
+                    <Text>Olá Mundo</Text>
+                    <Text style={{fontSize:25, color:'red', margin:20}}>Olá Mundo</Text>
+
+                    <Imagem nome='Lollipop-512' largura='256' altura='256' />
+
+                    </View>
+                );
+
+            }
+        }
