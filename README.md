@@ -314,7 +314,7 @@ Carregamento de imagens externas
             }
         }
 
-## Criando Próprios Componentes
+## Módulo 8 - Criando Próprios Componentes
 
 Carregamento de imagens de forma dinâmica
 
@@ -351,8 +351,60 @@ Carregamento de imagens de forma dinâmica
 
                     <Imagem nome='Lollipop-512' largura='256' altura='256' />
 
-                    </View>
+                    Entendendo STATES</View>
                 );
 
             }
         }
+
+## Módulo 8 - Entendendo STATES
+
+Lição referente a mudança automática dos tipos de comidas
+
+    import React, { Component } from 'react';
+    import { View, Text, Image } from 'react-native';
+
+    class Janta extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {comida:props.comida};
+        var comidas = ['Pizza', 'Lasanha','Burger','Sopa','Arroz'];
+
+        setInterval(() => {
+
+            this.setState(previousState => {
+                var n = Math.floor(Math.random() * comidas.length);
+
+                return {comida: comidas[n] };
+
+            });
+
+        }, 1000);
+
+    }
+
+    render() {
+        return (
+                <View>
+                <Text style={{textAlign:'center', fontWeight:'bold', fontSize:20, color:'red'}}>Hoje você vai jantar:</Text>
+                <Text style={{textAlign:'center', fontSize:20,}}>{this.state.comida}</Text>
+                </View>
+        );
+    }
+    }
+
+    export default class PrimeiroProjeto extends Component {
+
+    render() {
+
+        return (
+            <View style={{padding:20}}>
+
+            <Janta comida='Bolacha' />
+
+            </View>
+        );
+
+    }
+    }
