@@ -60,6 +60,10 @@ https://reactnavigation.org/
 
 https://jestjs.io/
 
+## Firebase
+
+https://firebase.google.com/
+
 ## Módulo 1 - Introdução Geral - Aula 1 - O que é React Native?
 
 Show Cases- http://facebook.github.io/react-native/showcase.html
@@ -408,3 +412,42 @@ Lição referente a mudança automática dos tipos de comidas
 
     }
     }
+
+## Módulo 8 - Grupos de Styles
+
+Formatação com estilos
+
+
+    import React, { Component } from 'react';
+    import { View, Text, StyleSheet } from 'react-native';
+
+    export default class PrimeiroProjeto extends Component {
+
+    render() {
+
+        return (
+                <View style={styles.padrao}>
+                <Text style={styles.azulGrande}>Este é o texto 1</Text>
+                <Text style={styles.vermelho}>Este é o texto 2</Text>
+                <Text style={[styles.azulGrande, styles.vermelho]}>Este é o texto 3</Text>
+                <Text style={[styles.vermelho, styles.azulGrande]}>Este é o texto 4</Text>
+                </View>
+        );
+    }
+    }
+
+    const styles = StyleSheet.create ({
+    padrao: {
+        paddingTop:20,
+        backgroundColor: '#00FF00'
+    },
+    azulGrande: {
+        color:'#0000FF',
+        fontSize:30,
+        textAlign:'center'
+    },
+    vermelho: {
+        color:'#FF0000',
+        fontSize:20,
+    }
+    });
