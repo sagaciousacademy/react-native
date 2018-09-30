@@ -40,6 +40,21 @@ https://facebook.github.io/jsx/
 
 https://expo.io/
 
+## Genymotion
+
+https://www.genymotion.com/fun-zone/
+
+https://sempreupdate.com.br/como-instalar-genymotion-no-ubuntu-fedora-debian/
+
+https://docs.genymotion.com/latest/Content/01_Get_Started/Installation.htm
+
+Couldn't start project on Android: could not install *smartsocket* listener: Address already in use
+ADB server didn't ACK
+* failed to start daemon *
+error: cannot connect to daemon
+
+https://stackoverflow.com/questions/35959350/react-native-android-genymotion-adb-server-didnt-ack
+
 ## Node.JS
 
 https://nodejs.org/en/
@@ -556,3 +571,7 @@ Prenchendo o input com o nome e apresentando a mensagem abaixo Olá, Nome
         textAlign: 'center'
     }
     });
+
+## Módulo 8 - Lidando com botões e ações
+
+Prenchendo o input com o nome e apresentando a mensagem abaixo Olá, Nome
